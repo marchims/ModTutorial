@@ -10,7 +10,7 @@ public class LetsModTutorial {
 
     @Mod.Instance("LetsModTutorial")
     public static LetsModTutorial instance;
-    
+
     public void preInit(FMLPreInitializationEvent event){
         // Initialize configs, network handlers, items and blocks
     }
