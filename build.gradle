@@ -20,6 +20,10 @@ apply plugin: 'forge'
 version = "1.7.10-1.0"
 group= "com.marchims.LetsModTutorial" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "LetsModTutorial"
+// to update forge ver, open cmd to this dir, run gradlew clean
+// then gradlew setupDecompWorkspace
+// then gradlew idea
+
 
 minecraft {
     version = "1.7.10-10.13.0.1180"
